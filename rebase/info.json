@@ -1,0 +1,8 @@
+{
+    "author" : ["AgentePanela"],
+    "install_msg" : "Cog do rebase instalada! Use `[p]rebase setup` pra configurar.",
+    "name" : "Rebase",
+    "short" : "Período \"eleitoral\" de codebases pro rebase do servidor.",
+    "description" : "-",
+    "tags" : ["Space Station 14", "SS14", "rebase"]
+}
