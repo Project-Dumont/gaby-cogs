@@ -363,7 +363,7 @@ class Rebase(commands.Cog):
             "status": "active",
         }
 
-        role = await guild.create_role(name=codebase["name"], color=discord.Color(int(codebase["color"], 16)), reason="Rebase: nova codebase")
+        role = await guild.create_role(name=codebase["name"], color=discord.Color(int(codebase["color"], 16)), mentionable=True, reason="Rebase: nova codebase")
         tag = await forum.create_tag(name=codebase["name"])
         post = await forum.create_thread(
             name=codebase["name"],
